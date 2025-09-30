@@ -6,3 +6,6 @@ if __name__ == "__main__":
     print(greet(user))
 def goodbye(name: str) -> str:
     return f"Goodbye, {name}!"
+
+def greet(name: str) -> str:
+    return f"Hello, {name.strip()}!"
